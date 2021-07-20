@@ -5,7 +5,7 @@ const _path = require('path'),
 	sourceBundlePath = '../sources/js/bundles/';
 
 aliasConfig.bundles = {
-    products:                                    _path.resolve(`${ sourceBundlePath }products.js`)
+    index:                                    _path.resolve(`${ sourceBundlePath }index.js`)
 };
 
 module.exports = aliasConfig;
