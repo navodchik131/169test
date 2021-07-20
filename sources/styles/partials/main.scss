@@ -60,6 +60,33 @@ p{
     }
   }
 }
+ul{
+  list-style: none;
+
+  li{
+    display: flex;
+    align-items: baseline;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0px;
+    }
+    &:before{
+      content: '';
+      display: block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #F388AA;
+      margin-right: 6px;
+    }
+  }
+}
 header{
   background: #FFFFFF;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.13);
