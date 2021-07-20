@@ -10,4 +10,13 @@ window.onload = function () {
             }
         });
 
+    document.querySelectorAll('.faq-items__element').forEach(btn => {
+        btn.addEventListener('click', event => {
+            if(!btn.classList.contains('open')){
+                btn.classList.add('open');
+            }else{
+                btn.classList.remove('open');
+            }
+        });
+    });
 };
