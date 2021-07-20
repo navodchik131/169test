@@ -1,0 +1,38 @@
+.breadcrumb{
+  padding: 20px 0;
+  ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    li{
+      padding-right: 10px;
+      margin-right: 10px;
+      position: relative;
+      &:after{
+        font-family: 'Manrope',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 160%;
+        color: #000000;
+        content: '/';
+        position: absolute;
+        right: 0px;
+      }
+      &:last-child{
+        &:after{
+          display: none;
+        }
+      }
+      a{
+        font-family: 'Manrope',sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 160%;
+        color: #000000;
+        text-decoration: none;
+      }
+    }
+  }
+}

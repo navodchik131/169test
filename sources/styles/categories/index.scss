@@ -1,0 +1,39 @@
+@import "../modules/breadcrumb";
+
+.top-block{
+  background: url(../images/top-block/bg-block.jpg) no-repeat center;
+  min-height: 695px;
+  &__content{
+    margin-top: 50px;
+    h1{
+      margin-bottom: 35px;
+    }
+    p{
+      font-size: 22px;
+      line-height: 150%;
+      font-weight: 400;
+    }
+    .price{
+      font-size: 35px;
+      line-height: 150%;
+      font-weight: 400;
+      margin-top: 35px;
+    }
+    .btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 108px;
+      min-width: 198px;
+      margin-top: 50px;
+      position: relative;
+      &:hover{
+        background: #f7acc3;
+      }
+      svg{
+        position: absolute;
+        right: 20px;
+      }
+    }
+  }
+}
